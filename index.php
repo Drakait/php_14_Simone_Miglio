@@ -23,5 +23,6 @@ for ($i = 0; $i < 10; $i++) {
 // $esercito[0]->muoviti();
 // $esercito[0]->jarvis();
 
-
+$mk1 = new IronMan(new Razzo(), new Razzo(), new Volo());
+print_r($mk1);
 echo "Ironman creati: " . IronMan::$counter . "\n";
